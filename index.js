@@ -11,12 +11,10 @@ const eqObjects = require('./eqObjects');
 const findKey = require('./findKey');
 const findKeyByValue = require('./findKeyByValue');
 const flatten = require('./flatten');
-const letterPositions = letterPositions('./letterPositions');
-const map = map('./map');
-const pig_latin = pig_latin('./pig-latin');
-const reverse = reverse('./reverse');
-const takeUntil = takeUntil('./takeUntil');
-const without = wtihout('./without');
+const letterPositions = require('./letterPositions');
+const maps = require('./map');
+const gamesToPlay = require('./takeUntil');
+const without = require('./without');
 
 module.exports = {
   head,
@@ -25,6 +23,7 @@ module.exports = {
   countLetters,
   countOnly,
   eqArrays,
+  assertEqual,
   assertArraysEqual,
   assertObjectsEqual,
   eqObjects,
@@ -32,9 +31,7 @@ module.exports = {
   findKeyByValue,
   flatten,
   letterPositions,
-  map,
-  pig_latin,
-  reverse, 
-  takeUntil,
+  maps,
+  gamesToPlay,
   without
 };

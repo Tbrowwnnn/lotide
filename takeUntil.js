@@ -15,6 +15,8 @@ const keepPlaying = function(array, condition) {
 
 const gamesToPlay = keepPlaying(videoGames, game => game === "RPG Burnout");
 
+module.exports = gamesToPlay; 
+
 console.log(gamesToPlay);
 
  

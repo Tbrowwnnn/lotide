@@ -1,8 +1,4 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed:  ${actual}  ===   ${expected}`);
-  } else (console.log(`❌❌❌ Assertion Failed: ${actual}  !==   ${expected}`));
-};
+const assertEqual = require('./assertEqual');
 
 const gameList = {
   "Persona 5": { score: 98 },
@@ -28,6 +24,8 @@ const findKey = function(objectList, condition) {
     }
   }
 };
+
+module.exports = findKey;
 
 const gameScore = findKey(gameList, x => x.score === 95);
 

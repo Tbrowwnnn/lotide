@@ -1,7 +1,7 @@
 const words = ["ground", "control", "to", "major", "tom"];
 
 
-const map = function(array, callback){
+const maps = function(array, callback){
 
   const results = [];
 
@@ -15,30 +15,15 @@ const map = function(array, callback){
   return results;
  } 
 
-const results1 = map(words, word => word[0]);
+const results1 = maps(words, word => word[0]);
 console.log(results1);
 
 
-const eqArrays = function(array1, array2) {
+const eqArrays = require('./eqArrays');
+const assertArraysEqual = require('./assertArraysEqual');
 
-  if (array1.length !== array2.length) {
-    return false;
-  }
+module.exports = maps;
 
-  for (let i = 0; i < array1.length; i++) {
-    if (array1[i] !== array2[i]) {
-      return false;
-
-    }
-  } return true;
-};
-
- const assertArraysEqual = function(response){
-   if(response === true){
-     console.log(`✅✅✅ both of these Arrays match`);
-   }
-     else console.log(`❌❌❌ These Arrays don't match`);
- }
 
 
 
