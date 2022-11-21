@@ -1,5 +1,13 @@
-const assertEqual = require('../assertEqual');
+const assert = require('chai').assert;
 const tail = require('../tail');
 
-assertEqual(tail(["hello"]).length, 2);
-assertEqual(tail(["hello", "My name is", "Slim Shady"]).length, 2);
+describe('#tail', () => {
+
+  it("return '2' for [Hello].length", () => { assert.deepEqual(tail(["Hello"]).length, 0); 
+});
+
+  it("return '2' for [Hello].length", () => { assert.strictEqual(tail(["hello", "My name is", "Slim Shady"]).length, 2); 
+});
+
+});
+
