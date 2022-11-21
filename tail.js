@@ -9,5 +9,5 @@ const tail = function(words) {
   return finalArray.slice(1);
 };
 
-assertEqual(tail(["hello"]).length, 2);
-assertEqual(tail(["hello", "My name is", "Slim Shady"]).length, 2);
+module.exports = tail; 
+
