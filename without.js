@@ -42,10 +42,10 @@ const without = function(source, itemsToRemove) {
 
 };
 
-const words = ["It's","a", "beautiful", "Snowy", "Morning"];
+const words = ["It's", "a", "beautiful", "Snowy", "Morning"];
 console.log(without(words, ["beautiful"]));
 
-assertArraysEqual(eqArrays(words, ["It's","a", "beautiful", "Snowy", "Morning"]));
+assertArraysEqual(eqArrays(words, ["It's", "a", "beautiful", "Snowy", "Morning"]));
 // assertArraysEqual(eqArrays(finalArray, ["It's", "beautiful", "Snowy", "Morning"]));
 
 

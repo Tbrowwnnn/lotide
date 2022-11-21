@@ -4,12 +4,6 @@ const assertEqual = function(actual, expected) {
   } else (console.log(`❌❌❌ Assertion Failed: ${actual}  !==   ${expected}`));
 };
 
-
-
-
-
-
-
 const countLetters = function(sentence) {//create a function that will count letters
   let letterCount = {};
 

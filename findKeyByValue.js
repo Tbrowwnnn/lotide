@@ -23,7 +23,9 @@ const findKeyByValue = function(list, keyToFind){
   for(const show in list){
     // console.log("inside list", list[show])
 
+    console.log(list[show])
     if(list[show] === keyToFind){
+      
       return show;
     }
   }
