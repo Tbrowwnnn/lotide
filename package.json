@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@tbrowwnnn/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide project based on a mini lodash copy for eduction purposes only",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Tbrowwnnn/lotide.git"
   },
-  "author": "",
+  "author": "Tyler Brown",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tbrowwnnn/lotide/issues"
