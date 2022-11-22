@@ -21,7 +21,3 @@ const letterPositions = function(sentence) {//create a function that will count 
 };
 
 module.exports = letterPositions;
-
-console.log(letterPositions("My name is Tyler Brown."));
-console.log(letterPositions("Lighthouse Labs."));
-console.log(letterPositions("eeeeeeeeeeeeeeeeeee"),);
